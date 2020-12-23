@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Teste Jeffe
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <po-upload  name="upload" 
+              p-label="PO Upload"
+              p-multiple
+              p-hide-send-button
+              [(ngModel)]="teste"
+              p-url="urlImage"
+              (p-success)="resumeUploadSuccess()"> 
+  </po-upload>
+<ion-button fill="outline" expand="block" style="text-transform:none"
+(click)="enviarAnexosSync(teste)">Sync</ion-button>
+
+<ion-button fill="outline" expand="block" style="text-transform:none"
+(click)="envioMingleGateway(teste)">Direto</ion-button>
+
+
+</ion-content>
