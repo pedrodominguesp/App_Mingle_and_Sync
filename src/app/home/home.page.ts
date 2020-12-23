@@ -31,7 +31,7 @@ export class HomePage implements OnInit {
   public enviarAnexosSync(rawFile: any) {
     const headers: Array<PoHttpHeaderOption> = [
       {
-        name: 'Authorization', value: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWZlMzQ1ZmU3ODk1MzA3MTgwN2MzMTQ5Iiwic2V0X2lkIjoiNWZiZTkwN2Q0NTY3MmNlMGM3NTc2ZWIxIiwiY2xpZW50X2lkIjoiNWQwOTQyMGZkOTBlMmI3ODVhMGY4NmJjIiwiYXBwX2lkIjoiNWU0ZDcxNGViOWJhZTBlODMzOGRiMzg3Iiwib3JpZ2luIjoibW9iaWxlIiwidXR5cGUiOiJQcm94eVVzZXIiLCJ0dHlwZSI6ImEiLCJpYXQiOjE2MDg3MzAxMTAsImV4cCI6MTYwODc1ODkxMCwiYXVkIjoibWluZ2xlIiwiaXNzIjoiMTIzIn0.nXPI1Y2Hj27OCLwtIRevDyvUYi7ucmKo29iNuI4Q4_8',
+        name: 'Authorization', value: 'Bearer ',
       },
       { name: "returnformatversion", value: "2" }
 
